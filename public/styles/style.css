@@ -1,0 +1,29 @@
+/* Navbar */
+
+nav :where(li){
+    @apply px-7 text-lg;
+}
+
+nav :where(li:hover, img:hover){
+    @apply transition-all duration-300 delay-100 scale-110 text-primary;
+}
+
+nav :where(.cta){
+    @apply bg-primary rounded-lg text-white py-2;
+}
+
+nav :where(.cta:hover){
+    @apply bg-white rounded-lg text-primary font-bold;
+}
+
+
+
+/* Footer */
+
+footer .social-midia :where(a){
+    @apply px-5 py-3 md:px-0 md:pr-5;
+}
+
+footer .social-midia a:hover :where(svg){
+    @apply  fill-primary transition-all duration-300 delay-100 scale-110;
+}

@@ -1,12 +1,20 @@
 import { Inter } from 'next/font/google'
-import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
-      <h1 className='text-neutral-900'>Hello</h1>
-    </main>
+    <>
+      <Header />
+
+      <main>
+        <h1 className='text-primary'>Hello</h1>
+      </main>
+
+      <Footer />
+    </>
+
   )
 }

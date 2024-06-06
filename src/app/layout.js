@@ -1,4 +1,8 @@
-import '../styles/global.css';
+
+import React from 'react';
+
+import './../../public/styles/global.css';
+import './../../public/styles/style.css';
 
 export const metadata = {
   title: 'Cod Explorer Challenges',
