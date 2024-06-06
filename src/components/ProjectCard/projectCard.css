@@ -1,0 +1,66 @@
+:where(.card){
+    @apply 
+        bg-white
+        min-h-96 
+        relative
+        hover:scale-105
+        transition-all
+        rounded-xl
+        w-96
+        lg:w-80
+        mb-10
+        lg:mb-0
+        cursor-pointer
+}
+
+
+
+.card :where(h3){
+    @apply 
+        text-primary
+        font-bold
+        text-center
+        mb-3
+}
+
+.card :where(p){
+    @apply 
+        text-black
+        text-center
+}
+
+.card:hover :where(.card__overlay){
+    @apply 
+        bg-gray-950/80 
+        h-full
+        w-full
+        absolute
+        rounded-xl
+        z-10
+        flex
+        justify-center
+        items-center
+        font-bold
+        text-xl
+}
+
+.card  .card__content :where(img){
+    @apply 
+        w-full
+        rounded-t-xl
+        mb-3
+}
+
+:where(.cardClose){
+    @apply 
+        bg-gray-950/80 
+        min-h-96
+        w-full
+        absolute
+        rounded-xl
+}
+
+.cardClose :where(img){
+    @apply 
+        w-full
+}

@@ -2,8 +2,9 @@ import { Inter } from 'next/font/google'
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Link from 'next/link';
-import Formulario from '../components/Form/form';
 import Image from 'next/image';
+import Formulario from '../components/Form/form';
+import ProjectCard from './../components/ProjectCard/projectCard';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,34 +41,33 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='bg-slate-950'>
-          <div>
-            <h2>Projetos</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-3 flex-wrap place-content-center w-full'>
-              <div className='grid place-content-center'>
-                <Image src="/img/quem-sou.png" alt='Projeto 1' width={300} height={200} />
-                <h3>Projeto 1</h3>
-                <p>Descrição do Projeto 1</p>
-                <Link href='/project1'>
-                  <button>Ver Projeto</button>
-                </Link>
-              </div>
-              <div className='grid place-content-center'>
-                <Image src="/img/quem-sou.png" alt='Projeto 2' width={300} height={200} />
-                <h3>Projeto 2</h3>
-                <p>Descrição do Projeto 2</p>
-                <Link href='/project2'>
-                  <button>Ver Projeto</button>
-                </Link>
-              </div>
-              <div className='grid place-content-center'>
-                <Image src="/img/quem-sou.png" alt='Projeto 3' width={300} height={200} />
-                <h3>Projeto 3</h3>
-                <p>Descrição do Projeto 3</p>
-                <Link href='/project3'>
-                  <button>Ver Projeto</button>
-                </Link>
-              </div>
+        <section className='bg-black'>
+          <div className='container mx-auto grid pb-20 my-10'>
+            <h2 className='text-center text-2xl py-10 font-bold'>PROJETOS</h2>
+            <div className='grid grid-cols-1 lg:grid-cols-3 flex-wrap place-content-center justify-items-center w-full'>
+              
+              <ProjectCard 
+                title='Projeto 1'
+                content='Lorem Ipsum in dolor'
+                image='/img/quem-sou.png'
+                ctaLink='#'
+              />
+
+              <ProjectCard 
+                title='Projeto 2'
+                content='Lorem Ipsum in dolor'
+                image='/img/quem-sou.png'
+                ctaLink='#'
+              />
+
+              <ProjectCard 
+                title='Projeto 3'
+                content='Lorem Ipsum in dolor'
+                image='/img/quem-sou.png'
+                ctaLink='#'
+                isClose={true}
+              />
+
             </div>
           </div>
         </section>
