@@ -1,11 +1,25 @@
 
 :where(.cta){
-    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white py-2 transition-all duration-300 delay-100 ;
+    @apply 
+        bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg 
+        text-white py-2 
+        transition-all 
+        duration-300 
+        delay-100 ;
 }
 
 :where(.cta:hover){
-    @apply bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white font-bold transition-all duration-300 delay-100 scale-110;
+    @apply 
+        bg-gradient-to-r from-indigo-500 from-5% via-sky-500 via-30% to-emerald-500 to-90%
+        text-white 
+        font-bold 
+        transition-all 
+        duration-300 
+        delay-100 
+        scale-110;
 }
+
+
 
 main{
     min-height: calc(100vh - 288px);

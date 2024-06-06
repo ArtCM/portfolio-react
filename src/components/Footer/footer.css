@@ -3,9 +3,18 @@ footer{
 }
 
 footer .social-midia :where(a){
-    @apply px-5 py-1 md:px-0 md:pr-5;
+    @apply 
+        px-5 
+        py-1 
+        md:px-0 
+        md:pr-5;
 }
 
 footer .social-midia a:hover :where(svg){
-    @apply  fill-primary transition-all duration-300 delay-100 scale-110;
+    @apply  
+        fill-primary 
+        transition-all 
+        duration-300 
+        delay-100 
+        scale-110;
 }

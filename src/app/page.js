@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Link from 'next/link';
+import Formulario from '../components/Form/form';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,8 @@ export default function Home() {
             <p className='cta p-3 w-60 text-center text-lg'>Contratar Agora</p>
           </Link>
         </section>
+
+        <Formulario/>
       </main>
 
       <Footer />
