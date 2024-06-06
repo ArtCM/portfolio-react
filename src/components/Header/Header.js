@@ -18,7 +18,7 @@ export default function Header() {
     return(
         <>
             <header>
-                <nav className='bg-slate-950 flex items-center justify-between py-3 px-10'>
+                <nav className='bg-black flex items-center justify-between py-3 px-10'>
                     <Link href="./">
                         <Image src="/img/logo.webp" alt="Logo" width={150} height={75} />
                     </Link>
@@ -42,7 +42,9 @@ export default function Header() {
                 <div className={`lg:hidden ${isMenuOpen ? '' : 'hidden'}` }>
                     <div className="nav-mob flex flex-col items-center justify-center space-y-1 px-2 py-8 bg-primary/75 z-[100] absolute w-full shadow-xl">
                         <Link href="/">Dashboard</Link>
+                        <br/>
                         <Link href="/Creator">Criar Wizard</Link>
+                        <br/>
                         <Link href="/Wizards">Wizards Criadas</Link>
                     </div>
                 </div>

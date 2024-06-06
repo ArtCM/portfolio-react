@@ -20,14 +20,19 @@ nav :where(li:hover, img:hover){
 
 .nav-mob :where(a){
     @apply 
-        py-2 
+        py-4
         font-bold 
-        text-lg;
+        text-lg
+        border-black
+        border-2
+        min-w-96
+        text-center
 }
 
 .nav-mob :where(a:hover){
     @apply 
         text-slate-950 
-        scale-125 
-        transition-all;
+        scale-110 
+        transition-all
+        bg-white;
 }

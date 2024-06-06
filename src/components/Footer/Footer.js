@@ -8,7 +8,7 @@ export default function Footer() {
 
     return(
         <>
-            <footer className='bg-slate-950 p-5 grid grid-cols-1 md:grid-cols-2'>
+            <footer className='bg-black p-5 grid grid-cols-1 md:grid-cols-2'>
                 <div className='flex flex-col justify-center items-center md:justify-center md:items-start md:pl-5'>
                     <p><strong>Redes Sociais</strong></p>
                     <div className='flex social-midia py-3'>
@@ -25,17 +25,22 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center items-center md:justify-center md:items-end md:pr-5'>
-                    <p className='text-center md:text-left'>
-                        <strong>Telefone:</strong> (37) 9 9872-7252
-                        <br/><br/>
-                        <strong>Divinópolis - MG</strong>
-                    </p>
-
+                <div className='grid grid-cols-1 lg:grid-cols-2 md:pr-5 py-3'>
+                    <div>
+                        <p className='text-center md:text-left'><strong>EMAIL:</strong></p>
+                        <br/>
+                        <p className='text-center md:text-left text-primary'>arthurperfilprof@hotmail.com</p>
+                    </div>
+                    <div className='mt-5 lg:m-0'>
+                        <p className='text-center md:text-left'><strong>TELEFONE:</strong></p>
+                        <br/>
+                        <p className='text-center md:text-left text-primary'>(37) 9 9872-7252</p>
+                    </div>
                 </div>
             </footer>
-            <div className='bg-primary text-center py-3 px-5 text-sm md:text-base min-h-12'>
+            <div className='bg-primary text-center py-3 px-5 text-sm md:text-base min-h-12 '>
                 <p>© 2024 Arthur Correa. Todos os direitos reservados</p>
+                
             </div>
         </>
     )
