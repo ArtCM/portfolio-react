@@ -1,0 +1,20 @@
+/* Navbar */
+nav{
+    min-height: 100px;
+}
+
+nav :where(li){
+    @apply px-7 text-lg;
+}
+
+nav :where(li:hover, img:hover){
+    @apply transition-all duration-300 delay-100 scale-110 text-primary;
+}
+
+.nav-mob :where(a){
+    @apply py-2 font-bold text-lg;
+}
+
+.nav-mob :where(a:hover){
+    @apply text-slate-950 scale-125 transition-all;
+}

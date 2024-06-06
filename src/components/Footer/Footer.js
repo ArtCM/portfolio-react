@@ -2,12 +2,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 
+import './footer.css';
+
 export default function Footer() {
 
     return(
         <>
             <footer className='bg-slate-950 p-5 grid grid-cols-1 md:grid-cols-2'>
-                <div className='flex flex-col justify-center items-center md:justify-start md:items-start md:pl-5'>
+                <div className='flex flex-col justify-center items-center md:justify-center md:items-start md:pl-5'>
                     <p><strong>Redes Sociais</strong></p>
                     <div className='flex social-midia py-3'>
                         <Link href="https://www.facebook.com/">
@@ -32,7 +34,7 @@ export default function Footer() {
 
                 </div>
             </footer>
-            <div className='bg-primary text-center py-3 px-5 text-sm md:text-base'>
+            <div className='bg-primary text-center py-3 px-5 text-sm md:text-base min-h-12'>
                 <p>© 2024 Arthur Correa. Todos os direitos reservados</p>
             </div>
         </>
