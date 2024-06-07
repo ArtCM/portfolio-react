@@ -19,18 +19,24 @@
         scale-110;
 }
 
-
-
-main{
-    min-height: calc(100vh - 288px);
-}
-
 .bg-image{
     background-image: url(../../public/img/bg.webp);
     background-size: cover;
 }
 
+.cta-whatsapp{
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    right: 25px;
+    bottom: 30px;
+}
+
+/* Keyframe Shake Effect*/
+.shake-effect{
+    animation:8s cubic-bezier(.36,.07,.19,.97) 2s infinite both shake;transform:translate3d(0,0,0);backface-visibility:hidden;perspective:1000px}@keyframes shake{1%,9%{transform:translate3d(-1px,0,0)}2%,8%{transform:translate3d(2px,0,0)}3%,5%,7%{transform:translate3d(-4px,0,0)}4%,6%{transform:translate3d(4px,0,0)}
+}
+
 h1{
     line-height: 1.5em!important;
 }
-

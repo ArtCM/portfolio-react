@@ -13,8 +13,6 @@
         cursor-pointer
 }
 
-
-
 .card :where(h3){
     @apply 
         text-primary
@@ -58,9 +56,34 @@
         w-full
         absolute
         rounded-xl
+        z-10
 }
 
 .cardClose :where(img){
     @apply 
         w-full
+}
+
+
+/* Modal */
+:where(.modaldiv){
+    @apply
+        z-20;
+}
+
+.modaldiv{
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.90);
+    align-items: center;
+    justify-content: center;
+}
+
+.modaldiv button{
+    position: fixed;
+    right: 10vw;
+    top: 50px;
 }
