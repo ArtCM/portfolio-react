@@ -39,7 +39,7 @@ Neste repositório se encontram os 5 desafios na mesma aplicação, cumprindo se
 https://code-explore.vercel.app
 ~~~
 
-<img alt="Preview Banner" src="./preview.png" />
+<img alt="Preview Banner" src="./public/img/preview.png" />
 
 <br>
 
