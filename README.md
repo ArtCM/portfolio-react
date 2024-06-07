@@ -1,38 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div markdown="1">
 
-## Getting Started
+# Desafios Code Explorer
 
-First, run the development server:
+<br>
+Arthur Correa - Desenvolvedor Front-end
+<br><br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/arthurcorream/)
+[![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram)](https://www.instagram.com/arthurcoorrea/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ver: 0.0.1 - Last update: 06/06/2024
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<div markdown="1">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Sobre
 
-## Learn More
+Repositório destinado a conclusão dos desáfios porposto no Code Explore da Front-end Fusion. O projeto é um trabalho voluntário sem fins lucrativos, que consiste na colaboração com diversos outros desenvolvedores visando concluir os projetos propostos, aprendendo e compartilhando experiências.
 
-To learn more about Next.js, take a look at the following resources:
+Neste repositório se encontram os 5 desafios na mesma aplicação, cumprindo seus requisitos, sendo eles:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Pagina de introdução contendo header/footer e um design atrativo.
+- Galeria de imagens em forma de grade ou carrossel com exibição em modal
+- Formulário de contato com validação dos campos, não sendo necessário a função de envio
+- Menu dropdown
+- Tornar a aplicação responsiva
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br>
 
-## Deploy on Vercel
+# Preview:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## [Clique aqui e veja a aplicação]([https://code-explore.vercel.app])
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+~~~
+https://code-explore.vercel.app
+~~~
+
+<img alt="Preview Banner" src="./preview.png" />
+
+<br>
+
+# Tecnologias Utilizadas:
+- Node.js v18.17.1
+- React
+- Next 13.2
+- HTML
+- CSS
+- JavaScript
+- Tailwind.css
+- Git
+- SweetAlert2 (lib)
+---------
+
+<br>
+
+Inicialização
+---------
+- Necessário Node.js v18.17.1 ou superior
+- Necessário Next 13.2
+- Rodar o comando `npm i` e `npm start` para instalação dos packages.
+- Após, rodar `npm run dev` para inicializar a aplicação.
+---------
+<br>
+
+# Nomenclatura de commits
+- docs: apenas mudanças de documentação;
+- feat: uma nova funcionalidade;
+- fix: a correção de um bug;
+- perf: mudança de código focada em melhorar performance;
+- refactor: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
+- style: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
+- test: adicionar ou corrigir testes.
+  
+---------
+
+<br>
+
+# Informações adicionais
+
+- No projeto utilizo o normalize CSS v8.0.1, para promover maior compatibilidade com todos os navegadores, disponível em:
+~~~
+https://necolas.github.io/normalize.css/
+~~~
