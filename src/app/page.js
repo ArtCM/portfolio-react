@@ -51,7 +51,7 @@ export default function Home() {
             <div className='quem-sou place-content-center grid'>
               <h2 className='mb-5 font-bold text-white text-2xl'>QUEM É ARTHUR CORRA?</h2>
               <p className='leading-7 mb-10'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Graduando em Engenharia da Computação e Desenvolvedor Front-end a mais de 3 anos. Arthur é um profissional que busca sempre por desempenho e qualidade em seus projetos, com mais de 100 sites entregues e diversos projetos. Traballha atualmente com React e Next, possue conhecimento em back-end, react hooks, solid, arquitetura, api rest, entre outros.
               </p>
               <Link className='cta w-60 py-3 text-center text-lg' href="#contact-form">
                 Entrar em Contato
