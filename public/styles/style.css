@@ -40,3 +40,14 @@
 h1{
     line-height: 1.5em!important;
 }
+
+/* Form */
+
+.form-div {
+    min-height: 600px;
+}
+
+.form-div img{
+    height: 100%;
+    width: 100%;
+}

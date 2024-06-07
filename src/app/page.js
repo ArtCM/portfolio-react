@@ -20,7 +20,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <main className='bg-slate-950'>
+      <main className='bg-gradient-to-r from-bg-griant-1 from-5% to-slate-950 to-80%'>
         <section className='bg-image flex justify-center flex-col px-10 py-36'>
           <div className='container mx-auto'>
             <h1 className='text-white font-bold mt-0 text-2xl md:text-5xl'>Arthur Correa <br/> Front-end Developer</h1>
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='min-h-20 bg-black py-5 px-3 shadow-xl w-full'>
+        <section className='min-h-20 bg-black py-5 px-3 shadow-xl shadow-black w-full'>
           <div className='container mx-auto'>
             <div className='place-content-center justify-center items-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6'>
               <Image src="/img/quem-sou.png" alt='React' width={120} height={120} />
@@ -43,22 +43,22 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='container mx-auto grid grid-cols-1 md:grid-cols-2 py-14 bg-slate-950 place-content-center'>
+        <section className='container mx-auto grid grid-cols-1 md:grid-cols-2 py-20 place-content-center'>
           <div className='place-content-center grid mb-5 lg:mb-0'>
             <Image src="/img/quem-sou.png" alt='Arthur Correa' width={400} height={400} />
           </div>
-          <div className='place-content-center grid'>
-            <h2>Quem é Arthur Correa?</h2>
-            <p>
+          <div className='quem-sou place-content-center grid'>
+            <h2 className='mb-5 font-bold text-white text-2xl'>QUEM É ARTHUR CORRA?</h2>
+            <p className='leading-7 mb-10'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <Link href="#">
+            <Link className='cta w-60 py-3 text-center text-lg' href="#">
               Entrar em Contato
             </Link>
           </div>
         </section>
 
-        <section className='bg-black'>
+        <section className='bg-black shadow-xl shadow-black'>
           <div className='container mx-auto grid pb-20 my-5'>
             <h2 className='text-center text-2xl py-10 font-bold'>PROJETOS</h2>
             <div className='grid grid-cols-1 lg:grid-cols-3 flex-wrap place-content-center justify-items-center w-full'>
@@ -92,13 +92,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='bg-slate-950'>
-          <div className='container mx-auto'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 pb-10 py-5 items-center justify-center'>
-              <div className='w-full place-items-end grid'>
-                <Image src="/img/quem-sou.png" alt='Entre em Contato!' width={400} height={600} />
+        <section>
+          <div className='container mx-auto py-10'>
+            <div className='form-div max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 pb-10 py-5 items-center justify-center'>
+              <div className='w-full place-items-end h-full hidden lg:flex'>
+                <Image src="/img/quem-sou.png" alt='Entre em Contato!' width={300} height={600} />
               </div>
-              <div className='w-full place-items-start grid'>
+              <div className='w-full place-items-start h-full'>
                 <Formulario/>
               </div>
             </div>

@@ -1,39 +1,43 @@
-.contactForm{
-    min-height: 450px;
-}
-
 :where(.contactForm){
     @apply 
         flex 
         flex-col 
         items-center 
         justify-center 
-        bg-slate-900 
-        p-10 w-full 
-        md:w-96 
-        rounded-xl;
+        bg-primary
+        p-10 
+        w-full
+        h-full
+        rounded-b-md
+        lg:rounded-r-md;
+        min-height: 30rem;
 }
 
 .contactForm :where(label){
     @apply 
         font-bold
-        text-xl;
+        text-3xl
 }
 
-.contactForm :where(input){
+.contactForm :where(input, textarea){
     @apply 
         rounded-md
         py-3 
         px-10 
         mt-8 
-        text-slate-950;
+        text-slate-950
+        w-full
+        border-black
+        border-2
+        text-wrap
 }
 
 .contactForm :where(button){
     @apply 
-        bg-primary 
+        bg-black
         mt-6 
         min-h-12 
+        w-full
         rounded-lg 
         px-7 
         py-3 

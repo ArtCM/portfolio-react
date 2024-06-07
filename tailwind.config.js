@@ -10,6 +10,8 @@ module.exports = {
         'secondary': '#2C1E4A',
         'terciary': '#6E00FF',
         'neutral': '#9ca3af',
+        'bg-griant-1': '#442063',
+        'bg-griant-2': '#1D3263',
       },
       screens:{
         'sm': '640px',
