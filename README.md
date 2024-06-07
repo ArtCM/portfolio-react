@@ -33,7 +33,7 @@ Neste repositório se encontram os 5 desafios na mesma aplicação, cumprindo se
 
 # Preview:
 
-## [Clique aqui e veja a aplicação]([https://code-explore.vercel.app])
+## [Clique aqui e veja a aplicação](https://code-explore.vercel.app)
 
 ~~~
 https://code-explore.vercel.app
