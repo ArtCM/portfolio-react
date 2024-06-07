@@ -49,3 +49,7 @@
         hover:border-primary 
         hover:border-2;
 }
+
+.contactForm :where(p){
+    
+}

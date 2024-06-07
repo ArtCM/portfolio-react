@@ -25,7 +25,7 @@ export default function ProjectCard( {isClose, title, content, image, modalimg} 
                     <Image src="/img/jail.png" alt='Projeto 1' width={300} height={200} />
                 </div>
                 <div className='card__content grid place-content-center'>
-                    <Image src={`${isClose ? '/img/comimg-soon.jpg' : image}`} alt='Projeto' width={500} height={600} />
+                    <Image src={`${isClose ? '/img/comimg-soon.webp' : image}`} alt='Projeto' width={500} height={600} />
                     <h3>{`${isClose ? 'Em Construção' : title}`}</h3>
                     <p>{`${isClose ? 'Mais informações em breve' : content}`}</p>
                 </div>

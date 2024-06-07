@@ -94,7 +94,9 @@ export default function Formulario() {
                     onChange={handleChange}
                     value={contato.Nome}
                 />
-                {errorMessages.NomeError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.NomeError}</p>}
+                <div className='h-3'> 
+                    {errorMessages.NomeError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.NomeError}</p>}
+                </div>
 
                 <input 
                     name="Email" 
@@ -103,7 +105,9 @@ export default function Formulario() {
                     onChange={handleChange}
                     value={contato.Email}
                 />
-                {errorMessages.EmailError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.EmailError}</p>}
+                <div className='h-3'>
+                    {errorMessages.EmailError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.EmailError}</p>}
+                </div>
 
                 <input 
                     name="Assunto" 
@@ -112,7 +116,9 @@ export default function Formulario() {
                     onChange={handleChange}
                     value={contato.Assunto}
                 />
-                {errorMessages.AssuntoError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.AssuntoError}</p>}
+                <div className='h-3'>    
+                    {errorMessages.AssuntoError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.AssuntoError}</p>}
+                </div>
 
                 <textarea 
                     className='min-h-32 text-start' 
@@ -122,7 +128,9 @@ export default function Formulario() {
                     onChange={handleChange}
                     value={contato.Mensagem}
                 />
-                {errorMessages.MensagemError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.MensagemError}</p>}
+                <div className='h-3'>
+                    {errorMessages.MensagemError && <p className="bg-red-500 text-white font-bold rounded-md px-3">{errorMessages.MensagemError}</p>}
+                </div>
 
                 <button type='submit'>
                     Enviar

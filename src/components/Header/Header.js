@@ -24,10 +24,10 @@ export default function Header() {
                     </Link>
 
                     <ul className='justify-center items-center hidden md:flex'>
-                        <Link href="./"><li className='transition-all'>Inicio</li></Link>
-                        <Link href="./about"><li className='transition-all'>Sobre</li></Link>
-                        <Link href="./services"><li className='transition-all'>Projetos</li></Link>
-                        <Link href="./contact"><li className='transition-all cta text-white'>Entre em Contato</li></Link>
+                        <Link href="#stacks"><li className='transition-all'>Stacks</li></Link>
+                        <Link href="#quem-sou"><li className='transition-all'>Sobre</li></Link>
+                        <Link href="#projetos"><li className='transition-all'>Projetos</li></Link>
+                        <Link href="#contact-form"><li className='transition-all cta text-white'>Entre em Contato</li></Link>
                     </ul>
 
                     <div className='lg:hidden'>
@@ -40,12 +40,14 @@ export default function Header() {
                     </div>
                 </nav>
                 <div className={`lg:hidden ${isMenuOpen ? '' : 'hidden'}` }>
-                    <div className="nav-mob flex flex-col items-center justify-center space-y-1 px-2 py-8 bg-primary/75 z-[100] absolute w-full shadow-xl">
-                        <Link href="/">Dashboard</Link>
+                    <div className="nav-mob flex flex-col items-center justify-center space-y-1 px-2 py-8 bg-primary/90 z-[100] absolute w-full shadow-xl">
+                        <Link href="#quem-sou" className='transition-all'>Sobre</Link>
                         <br/>
-                        <Link href="/Creator">Criar Wizard</Link>
+                        <Link href="#stacks" className='transition-all'>Stacks</Link>
                         <br/>
-                        <Link href="/Wizards">Wizards Criadas</Link>
+                        <Link href="#projetos" className='transition-all'>Projetos</Link>
+                        <br/>
+                        <Link href="#contact-form" className='transition-all'>Entre em Contato</Link>
                     </div>
                 </div>
             </header>
