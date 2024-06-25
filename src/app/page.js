@@ -51,7 +51,7 @@ export default function Home() {
             <div className='quem-sou place-content-center grid'>
               <h2 className='mb-5 font-bold text-white text-2xl'>QUEM É ARTHUR CORRA?</h2>
               <p className='leading-7 mb-10'>
-                Graduando em Engenharia da Computação e Desenvolvedor Front-end a mais de 3 anos. Arthur é um profissional que busca sempre por desempenho e qualidade em seus projetos, com mais de 100 sites entregues e diversos projetos. Traballha atualmente com React e Next, possue conhecimento em back-end, react hooks, solid, arquitetura, api rest, entre outros.
+                Graduando em Engenharia da Computação e Desenvolvedor Front-end há 3 anos. Arthur é um profissional que busca sempre por desempenho e qualidade em seus projetos, com mais de 100 sites entregues e diversos projetos. Traballha atualmente com React.js, Typescript, Next e Vite, possue conhecimento em back-end, react hooks, solid, arquitetura, api rest, entre outros.
               </p>
               <Link className='cta w-60 py-3 text-center text-lg' href="#contact-form">
                 Entrar em Contato
@@ -66,7 +66,7 @@ export default function Home() {
             <div className='grid grid-cols-1 lg:grid-cols-3 flex-wrap place-content-center justify-items-center w-full'>
 
               <ProjectCard 
-                title='Calculadora'
+                title='Gerador de QRCode'
                 content='Em Breve!'
                 image='/img/projeto-1.webp'
                 modalimg='/img/projeto-1.webp'
